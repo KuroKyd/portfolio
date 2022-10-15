@@ -1,3 +1,4 @@
+#total de energia a pagar
 Consumo = int(input(Consumo de energia: ))
 if Consumo < 100 : Vconsumo = float(Consumo * 0.50)
 if Consumo >= 100 < 250 : Vconsumo = float(Consumo * 0.75)
