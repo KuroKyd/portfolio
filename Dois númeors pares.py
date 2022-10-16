@@ -1,0 +1,7 @@
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+if num1 % 2 == 0 and num2 % 2 == 0 : print("SIM")
+elif num1 % 2 == 0 and num3 % 2 == 0 : print("SIM")
+elif num2 % 2 == 0 and num3 % 2 == 0 : print("SIM")
+else : print("NAO")
