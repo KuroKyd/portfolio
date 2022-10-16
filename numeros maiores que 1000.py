@@ -1,0 +1,7 @@
+Num1 = int(input())
+Num2 = int(input())
+Num3 = int(input())
+if Num1 >= 1000 and Num2 >= 1000: print("SIM")
+elif Num1 >= 1000 and Num3 >= 1000: print("SIM")
+elif Num3 >= 1000 and Num2 >= 1000: print("SIM")
+else: print("NAO")
