@@ -1,0 +1,5 @@
+Num = int(input())
+if Num % 3 == 0 and Num % 5 ==0 : print("PirlimPimpim")
+elif Num % 5 == 0 : print("Pimpim")
+elif Num % 3 == 0 : print("Pirlim")
+else : print(Num)
